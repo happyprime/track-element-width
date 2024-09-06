@@ -1,0 +1,1 @@
+{const e=()=>{const e=document.querySelectorAll(".track-element-width"),t=new ResizeObserver((e=>{e.forEach((e=>{(e=>{const{width:t}=e.getBoundingClientRect();e.style.setProperty("--element-width",`${t}px`)})(e.target)}))}));e.forEach((e=>{t.observe(e)}))};"complete"===document.readyState?e():document.addEventListener("DOMContentLoaded",e)}
